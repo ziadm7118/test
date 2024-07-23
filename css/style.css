@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #44f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px; 
+}
+
+.head-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 300px; 
+    margin-bottom: 10px; 
+}
+
+.head-sec a img {
+    width: 40px; 
+    height: 40px; 
+}
+
+.container {
+    background-color: rgb(235, 228, 228);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left; /* محاذاة النص إلى اليسار */
+    margin-top: 200px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #555555;
+    margin: 5px 0;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info p{
+    font-weight: bold;
+    
+}
+
+.links {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.links a {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.message-form {
+    margin-top: 20px;
+}
+
+.message-form input,
+.message-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.message-form textarea {
+    height: 60px;
+}

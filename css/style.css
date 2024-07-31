@@ -1,19 +1,27 @@
 body {
-    font-family: "Nunito", sans-serif; /* اضافه خطوط */
+    font-family: "Nunito", sans-serif; 
     background-color: #4682b4;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding-top: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
 }
 
 .head-sec {
     display: flex;
-    justify-content: space-between;
-    width: 300px; 
-    margin-bottom: 10px; 
+    justify-content: right;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .head-sec a img {
@@ -21,14 +29,15 @@ body {
     height: 40px; 
 }
 
-.container {
+.container-card {
     background-color: rgb(235, 228, 228);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: left; 
-    margin-top: 200px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 100px;
 }
 
 .profile-pic img {
@@ -40,7 +49,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -150px;
+    margin-top: -100px;
+
+   
 }
 
 h1 {
@@ -58,9 +69,8 @@ p {
     margin: 20px 0;
 }
 
-.contact-info p{
+.contact-info p {
     font-weight: bold;
-    
 }
 
 .links {
@@ -72,7 +82,6 @@ p {
     display: inline-block;
     margin: 5px 10px 5px 0;
     text-decoration: none;
-    color: #007acc;
     font-weight: bold;
 }
 
@@ -91,4 +100,46 @@ p {
 
 .message-form textarea {
     height: 60px;
+}
+
+.contact-info img{
+    max-width:  20px;
+    max-height: 20px;
+}
+
+.contact-info span{
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+}
+
+.links img{
+    vertical-align: middle;
+}
+
+.contact-save{
+    background-color: #4682b4;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact-inline img{
+    background-color: #4682b4;
+    padding: 3px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.contact-inline a{
+    color: black;
+
+}
+
+.buttons a{
+    background-color: #4682b4;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }

@@ -4,60 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ziad Zakaria CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/768px.css">
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/480px.css">
 </head>
 <body>
-    <section class="container">
-        <header class="head-sec">
-            <a href=""><img src="https://img.icons8.com/?size=100&id=6ozUksPEPg6G&format=png&color=FFFFFF"/></a>
-            <a href=""><img src="https://img.icons8.com/?size=100&id=1KMptle68hAp&format=png&color=FFFFFF"/></a>
+    <section class="container mt-5">
+        <header class="d-flex justify-content-end mb-4">
+            <a href="#" class="mx-2"><img src="https://img.icons8.com/?size=100&id=6ozUksPEPg6G&format=png&color=FFFFFF" alt="Icon" class="img-fluid" style="width: 40px; height: 40px;"></a>
+            <a href="#" class="mx-2"><img src="https://img.icons8.com/?size=100&id=1KMptle68hAp&format=png&color=FFFFFF" alt="Icon" class="img-fluid" style="width: 40px; height: 40px;"></a>
         </header>
 
-
-        <section class="container-card">
-
-            <div class="profile-pic">
-                <img src="./imgs/my-photo.jpeg" alt="Profile Picture">
+        <section class="container-card bg-light p-4 rounded shadow-sm mx-auto">
+            <div class="text-center mb-4">
+                <img src="./imgs/my-photo.jpeg" alt="Profile Picture" class="img-fluid rounded-circle prof-pic" style="width: 200px; height: 200px;">
             </div>
-            <h1>Ziad Zakaria</h1>
-            <h4>Founder of z-sites <br> CEO @ TOP-G Company</h4>
-            <div class="contact-info">
-                <h3>summary</h3>
+            <h1 class="text-center">Ziad Zakaria</h1>
+            <h4 class="text-center">Founder of z-sites <br> CEO @ TOP-G Company</h4>
+            <div class="contact-info mt-4">
+                <h3>Summary</h3>
                 <p>Experienced Full Stack Web Developer with 5 years in creating and maintaining web applications. Skilled in both front-end and back-end technologies.</p>
-                
+
                 <h3>Education</h3>
                 <p>Bachelor’s in Computer Science<br>
-                    M.E.T <img src="./imgs/location-pin.png" alt=""> <br> 2013 – 2017</p>
+                    M.E.T <img src="./imgs/location-pin.png" alt="" class="img-fluid" style="width: 20px; height: 20px;"> <br> 2013 – 2017</p>
 
                 <h3>Skills</h3>
-                <p> <span>Languages:</span> HTML5, CSS3, JavaScript, TypeScript, SQL, NoSQL
-                   <br><span>Frameworks:</span>  React.js, Node.js, Express.js
-                    <br> <span>Tools:</span> Git, Webpack, Docker</p>
+                <p><span class="font-weight-bold">Languages:</span> HTML5, CSS3, JavaScript, TypeScript, SQL, NoSQL
+                   <br><span class="font-weight-bold">Frameworks:</span> React.js, Node.js, Express.js
+                    <br><span class="font-weight-bold">Tools:</span> Git, Webpack, Docker</p>
             </div>
-            <div class="links">
-                <a href="#" class="contact-save"><img src="./imgs/add-contact.png" alt="">Save Contact</a><br>
-                <div class="contact-inline">
-                    <a href="#"><img src="./imgs/call.png" alt="">Mobile</a>
-                    <a href="#"><img src="./imgs/blog.png" alt="">Blog</a>
-                    <a href="#"><img src="./imgs/email.png" alt="">Email</a>
-                    <a href="#"><img src="./imgs/office.png" alt="">Office</a>
+            <div class="links mt-4">
+                <a href="#" class="btn-save-contact btn text-white mb-2"><img src="./imgs/add-contact.png" alt="" class="img-fluid" style="width: 20px; height: 20px;"> Save Contact</a><br>
+                <div class="contact-inline d-flex flex-wrap justify-content-between">
+                    <a href="#" class="d-flex align-items-center mb-2 text-dark"><img src="./imgs/call.png" alt="" class="img-fluid" > Mobile</a>
+                    <a href="#" class="d-flex align-items-center mb-2 text-dark"><img src="./imgs/blog.png" alt="" class="img-fluid" > Blog</a>
+                    <a href="#" class="d-flex align-items-center mb-2 text-dark"><img src="./imgs/email.png" alt="" class="img-fluid" > Email</a>
+                    <a href="#" class="d-flex align-items-center mb-2 text-dark"><img src="./imgs/office.png" alt="" class="img-fluid" > Office</a>
                 </div>
             </div>
-            <div class="message-form">
+            <div class="message-form mt-4">
                 <h2>Send me a message.</h2>
-                <input type="email" placeholder="Enter your email">
-                <textarea placeholder="Type here message"></textarea>
+                <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                <textarea class="form-control" placeholder="Type here message"></textarea>
             </div>
-            <div class="buttons">
-                <a href="#">send</a>
-                <a href="#">reset</a>
+            <div class="buttons mt-4 text-center">
+                <a href="#" class="btn btn-primary text-white mx-2">Send</a>
+                <a href="#" class="btn btn-secondary text-white mx-2">Reset</a>
             </div>
         </section>
     </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -3,143 +3,42 @@ body {
     background-color: #4682b4;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
     max-width: 600px;
-    padding: 20px;
-}
-
-.head-sec {
-    display: flex;
-    justify-content: right;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.head-sec a img {
-    width: 40px; 
-    height: 40px; 
 }
 
 .container-card {
     background-color: rgb(235, 228, 228);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
-    text-align: left;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
-.profile-pic img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #cccccc;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -100px;
-
-   
-}
-
-h1 {
-    font-size: 24px;
-    margin: 10px 0;
-}
-
-p {
-    font-size: 14px;
-    color: #555555;
-    margin: 5px 0;
-}
-
-.contact-info {
-    margin: 20px 0;
-}
-
-.contact-info p {
-    font-weight: bold;
-}
-
-.links {
-    margin: 20px 0;
-    text-align: left;
-}
-
-.links a {
-    display: inline-block;
-    margin: 5px 10px 5px 0;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.message-form {
-    margin-top: 20px;
-}
-
-.message-form input,
-.message-form textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-}
-
-.message-form textarea {
-    height: 60px;
-}
-
-.contact-info img{
-    max-width:  20px;
-    max-height: 20px;
-}
-
-.contact-info span{
+.contact-info span {
     color: rgb(49, 49, 49);
     font-weight: bold;
 }
 
-.links img{
-    vertical-align: middle;
-}
-
-.contact-save{
-    background-color: #4682b4;
-    padding: 8px;
-    border-radius: 10px;
-    color: white;
-}
-
-.contact-inline img{
-    background-color: #4682b4;
-    padding: 3px;
-    border-radius: 10px;
-    margin-right: 5px;
-}
-
-.contact-inline a{
-    color: black;
-
-}
-
-.buttons a{
-    background-color: #4682b4;
+.buttons a {
     padding: 5px 20px;
     border-radius: 10px;
-    color: white;
-    text-decoration: none;
     font-size: 20px;
+}
+
+.links .btn-save-contact{
+    background-color:#4682b4;
+}
+
+.contact-inline img {
+    background-color: #4682b4;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+    width:  40px;
+    height: 40px;
+}
+
+.prof-pic{
+    margin-top: -140px;
 }
